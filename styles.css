@@ -1,0 +1,26 @@
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/Vazir-Regular.eot");
+    src: url("fonts/Vazir-Regular.woff") format("woff"),
+         url("fonts/Vazir-Regular.ttf") format("ttf"),
+         url("fonts/Vazir-Regular.woff2") format("woff2");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: vazir;
+    direction: rtl;
+    background-color: rgb(248, 242, 242);
+}
+
+.ListItem{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title{
+    text-align: center;
+}
